@@ -1,7 +1,7 @@
 # Setting up the branches for Travis to check for builds
 branches:
   only:
-  - master
+  - main
 
 # Language info
 language: node_js
