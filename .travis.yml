@@ -1,9 +1,9 @@
-# Setting up the branches for Travis to check for builds.
+# Setting up the branches for Travis to check for builds
 branches:
   only:
   - main
 
-# Language info.
+# Language info
 language: node_js
 node_js:
   - 12
@@ -11,11 +11,11 @@ node_js:
 services:
   - docker
 
-# Pre-testing installs.
+# Pre-testing installs
 install:
   - echo "Nothing to install"
 
-# Scripts to be run such as tests.
+# Scripts to be run such as tests
 before_script:
   - echo "no tests"
 
