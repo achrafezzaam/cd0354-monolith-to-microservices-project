@@ -44,3 +44,4 @@ venv/
 # Secrets files
 set_env.sh
 deployment-files/
+aws/
